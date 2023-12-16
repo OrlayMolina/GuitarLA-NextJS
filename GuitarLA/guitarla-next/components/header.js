@@ -11,10 +11,10 @@ export default function Header() {
 
                 <nav className={styles.navegacion}>
 
-                    <Link href='/'>Home</Link>
-                    <Link href='/about'>About Us</Link>
-                    <Link href='/blog'>Blog</Link>
-                    <Link href='/store'>Store</Link>
+                    <Link className={styles.enlace} href='/'>Home</Link>
+                    <Link className={styles.enlace} href='/about'>About Us</Link>
+                    <Link className={styles.enlace} href='/blog'>Blog</Link>
+                    <Link className={styles.enlace} href='/store'>Store</Link>
                     
                 </nav>
             </div>
