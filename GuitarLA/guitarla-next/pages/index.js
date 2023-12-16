@@ -6,10 +6,11 @@ export default function Home() {
     <>
       <Layout
         title={'Home'}
+        description={'GuitarLA - Music blog, guitar sales and more'}
       >
-        <h1>Hola mundo en next</h1>
+        <h1>Hello world!</h1>
 
-        <Link href='/nosotros'>Nosotros</Link>
+        <Link href='/about'>About Us</Link>
       </Layout>
     </>
   );

@@ -5,8 +5,9 @@ export default function Nosotros() {
   return (
     <Layout
         title={'About Us'}
+        description={'About Us, GuitarLA, instrument store'}
     >
-        <Link href='/'>A Inicio</Link>
+        <h1>About Us</h1>
     </Layout>
   )
 }
