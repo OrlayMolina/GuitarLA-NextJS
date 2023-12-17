@@ -1,8 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import styles from '../styles/header.module.css';
 
 export default function Header() {
+
+    const router = useRouter();
+    console.log(router);
 
     return (
         <header className={styles.header}>
