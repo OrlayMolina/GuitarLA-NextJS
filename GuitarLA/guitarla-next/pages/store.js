@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Layout from '../components/layout';
+import GuitarsList from '../components/guitars-list';
 
 export default function Store() {
   return (
@@ -7,7 +8,12 @@ export default function Store() {
         title={'Store'}
         description={'Virtual store, sale of guitars, instruments, GuitarLA'}
     >
-        <h1>Store</h1>
+        <main className='contenedor'>
+          <h1 className='heading'>Our Collection</h1>
+
+          <GuitarsList
+          />
+        </main>
     </Layout>
   )
 }

@@ -9,7 +9,7 @@ export default function Nosotros() {
         description={'About Us, GuitarLA, instrument store'}
     >
         <main className='contenedor'>
-          <h2 className='heading'>About Us</h2>
+          <h1 className='heading'>About Us</h1>
 
           <div className={styles.contenido}>
 

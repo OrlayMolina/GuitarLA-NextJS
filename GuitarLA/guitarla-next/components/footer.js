@@ -15,7 +15,7 @@ export default function Footer() {
                 </nav>
 
                 <p className={styles.copyright}>
-                    Todos los derechos reservados {new Date().getFullYear()}
+                    All rights reserved {new Date().getFullYear()}
                 </p>
             </div>
         </footer>
