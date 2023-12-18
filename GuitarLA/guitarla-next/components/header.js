@@ -18,8 +18,8 @@ export default function Header() {
 
                     <Link className={router.pathname  === '/' ? styles.active : ''} href='/'>Home</Link>
                     <Link className={router.pathname  === '/about' ? styles.active : ''} href='/about'>About Us</Link>
-                    <Link className={router.pathname  === '/blog' ? styles.active : ''} href='/blog'>Blog</Link>
                     <Link className={router.pathname  === '/store' ? styles.active : ''} href='/store'>Store</Link>
+                    <Link className={router.pathname  === '/blog' ? styles.active : ''} href='/blog'>Blog</Link>
                     
                 </nav>
             </div>
