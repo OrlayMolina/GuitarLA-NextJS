@@ -6,7 +6,6 @@ import styles from '../styles/header.module.css';
 export default function Header() {
 
     const router = useRouter();
-    console.log(router);
 
     return (
         <header className={styles.header}>
@@ -15,10 +14,10 @@ export default function Header() {
 
                 <nav className={styles.navegacion}>
 
-                    <Link className={styles.enlace} href='/'>Home</Link>
-                    <Link className={styles.enlace} href='/about'>About Us</Link>
-                    <Link className={styles.enlace} href='/blog'>Blog</Link>
-                    <Link className={styles.enlace} href='/store'>Store</Link>
+                    <Link className={router.pathname  === '/' ? styles.active : ''} href='/'>Home</Link>
+                    <Link className={router.pathname  === '/about' ? styles.active : ''} href='/about'>About Us</Link>
+                    <Link className={router.pathname  === '/blog' ? styles.active : ''} href='/blog'>Blog</Link>
+                    <Link className={router.pathname  === '/store' ? styles.active : ''} href='/store'>Store</Link>
                     
                 </nav>
             </div>
